@@ -4,7 +4,7 @@ function produceDrivingRange() {
 
 function createDriver(){
   let driverId = 0;
-  class Driver {
+  return class Driver {
     constructor(){
       this.id = ++driverId
     }
