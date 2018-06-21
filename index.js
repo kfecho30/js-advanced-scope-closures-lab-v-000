@@ -12,6 +12,12 @@ function produceDrivingRange(blockRange) {
   }
 }
 
+function produceTipCalculator(fare){
+  return function(tip){
+    return tip*fare
+  }
+}
+
 function createDriver(){
   let driverId = 0;
   return class Driver {
