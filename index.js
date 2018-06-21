@@ -1,5 +1,5 @@
-function produceDrivingRange(trip) {
-  return function(range) {
+function produceDrivingRange(range) {
+  return function(trip) {
     return range > trip
   }
 }
